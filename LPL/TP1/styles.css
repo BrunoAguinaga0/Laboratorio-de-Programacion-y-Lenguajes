@@ -102,3 +102,27 @@ footer p{
 
 footer h4{align-items: center;
 justify-content: center;}
+
+table{
+    width: 300px;
+    border: 1px #b99c9c solid;
+    margin-left:10%;
+    margin-bottom: 2%;
+}
+
+tr{
+    vertical-align: center ;
+}
+
+th {
+    background-color: #9e8686;
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    border: 1px black dotted;
+    font-weight: bolder;
+}  
+
+td {background-color: #e8dddd;
+    text-align: center;}
+
