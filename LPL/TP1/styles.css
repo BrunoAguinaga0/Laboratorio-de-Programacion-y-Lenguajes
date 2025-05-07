@@ -1,7 +1,6 @@
 body{
     background-color: bisque;
 }
-
 img{
     
     max-width: 50%;
@@ -132,4 +131,34 @@ td img{
     margin-left: auto;
     margin-right: auto;
 }
+
+form{
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 500px;
+    height: 150px;
+    justify-content: center;
+}
+
+input{
+    margin-left: 2px;
+    margin-bottom: 5px;
+}
+
+#contenedor{
+    width: 500px;
+    border: 2px solid;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+p{
+    text-align: center;
+    margin: 0 auto;
+}
+
+#columna1 #columna2 {
+    display: inline-block;
+}
+
 
