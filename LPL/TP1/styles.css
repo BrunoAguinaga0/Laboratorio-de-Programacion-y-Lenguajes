@@ -146,6 +146,7 @@ input{
 }
 
 #contenedor{
+    background-color:rgb(184, 159, 129) ;
     width: 500px;
     border: 2px solid;
     justify-content: center;
@@ -155,10 +156,30 @@ input{
 p{
     text-align: center;
     margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 4px;
 }
 
-#columna1 #columna2 {
-    display: inline-block;
+.fila {
+    display: flex;
+    justify-content: baseline;
 }
+label {
+    width: 68px;
+    text-align: end;
+}
+input{
+    width: 150px;
+    padding: 0 auto;
+}
+
+#enviar {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
 
 
